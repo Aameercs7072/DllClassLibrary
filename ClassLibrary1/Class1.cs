@@ -28,7 +28,6 @@ namespace ClassLibrary1
         }
         public bool Adduser(string name, string email, string password)
         {
-
             NewUser user = new NewUser();
             user.Name = name;
             user.Email = email;
